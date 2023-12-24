@@ -1,0 +1,9 @@
+images/
+
+*.fits
+*.fits.gz
+*.hdr
+*.tbl
+
+*.png
+*.tar

@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mViewer
+arguments = -ct 1 -gray $(p)/final.fits -1s max gaussian-log -out $(p)/final.png
+
+initialdir = $(p)
+
+output = 11_viewer.output
+error = 11_viewer.error
+log = 11_viewer.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

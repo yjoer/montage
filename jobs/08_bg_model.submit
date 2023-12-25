@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mBgModel
+arguments = $(p)/images_p.tbl $(p)/fits.tbl $(p)/corrections.tbl
+
+initialdir = $(p)
+
+output = 08_bg_model.output
+error = 08_bg_model.error
+log = 08_bg_model.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

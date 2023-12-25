@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mProjExec
+arguments = -p $(p)/images $(p)/images.tbl $(p)/template.hdr $(p)/proj $(p)/stats.tbl
+
+initialdir = $(p)
+
+output = 03_proj_exec.output
+error = 03_proj_exec.error
+log = 03_proj_exec.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mBgExec
+arguments = -p $(p)/proj/ $(p)/images_p.tbl $(p)/corrections.tbl $(p)/corr
+
+initialdir = $(p)
+
+output = 09_bg_exec.output
+error = 09_bg_exec.error
+log = 09_bg_exec.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

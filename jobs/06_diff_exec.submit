@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mDiffExec
+arguments = -p $(p)/proj/ $(p)/diffs.tbl $(p)/template.hdr $(p)/diff
+
+initialdir = $(p)
+
+output = 06_diff_exec.output
+error = 06_diff_exec.error
+log = 06_diff_exec.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

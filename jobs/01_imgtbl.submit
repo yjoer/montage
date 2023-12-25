@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mImgtbl
+arguments = $(p)/images $(p)/images.tbl
+
+initialdir = $(p)
+
+output = 01_imgtbl.output
+error = 01_imgtbl.error
+log = 01_imgtbl.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -2,17 +2,17 @@
 
 ## Band J
 
-JOB A_8j 01_imgtbl.submit
-JOB B_8j 02_make_hdr.submit
-JOB C_8j 03_proj_exec.submit
-JOB D_8j 04_imgtbl.submit
-JOB E_8j 05_overlaps.submit
-JOB F_8j 06_diff_exec.submit
-JOB G_8j 07_fit_exec.submit
-JOB H_8j 08_bg_model.submit
-JOB I_8j 09_bg_exec.submit
-JOB J_8j 10_add.submit
-JOB K_8j 11_viewer.submit
+JOB A_8j 01_imgtbl.sub
+JOB B_8j 02_make_hdr.sub
+JOB C_8j 03_proj_exec.sub
+JOB D_8j 04_imgtbl.sub
+JOB E_8j 05_overlaps.sub
+JOB F_8j 06_diff_exec.sub
+JOB G_8j 07_fit_exec.sub
+JOB H_8j 08_bg_model.sub
+JOB I_8j 09_bg_exec.sub
+JOB J_8j 10_add.sub
+JOB K_8j 11_viewer.sub
 
 VARS A_8j p="/home/ubuntu/shared_data/montage/M8/band_j"
 VARS B_8j p="/home/ubuntu/shared_data/montage/M8/band_j"
@@ -28,17 +28,17 @@ VARS K_8j p="/home/ubuntu/shared_data/montage/M8/band_j"
 
 ## Band H
 
-JOB A_8h 01_imgtbl.submit
-JOB B_8h 02_make_hdr.submit
-JOB C_8h 03_proj_exec.submit
-JOB D_8h 04_imgtbl.submit
-JOB E_8h 05_overlaps.submit
-JOB F_8h 06_diff_exec.submit
-JOB G_8h 07_fit_exec.submit
-JOB H_8h 08_bg_model.submit
-JOB I_8h 09_bg_exec.submit
-JOB J_8h 10_add.submit
-JOB K_8h 11_viewer.submit
+JOB A_8h 01_imgtbl.sub
+JOB B_8h 02_make_hdr.sub
+JOB C_8h 03_proj_exec.sub
+JOB D_8h 04_imgtbl.sub
+JOB E_8h 05_overlaps.sub
+JOB F_8h 06_diff_exec.sub
+JOB G_8h 07_fit_exec.sub
+JOB H_8h 08_bg_model.sub
+JOB I_8h 09_bg_exec.sub
+JOB J_8h 10_add.sub
+JOB K_8h 11_viewer.sub
 
 VARS A_8h p="/home/ubuntu/shared_data/montage/M8/band_h"
 VARS B_8h p="/home/ubuntu/shared_data/montage/M8/band_h"
@@ -54,17 +54,17 @@ VARS K_8h p="/home/ubuntu/shared_data/montage/M8/band_h"
 
 ## Band K
 
-JOB A_8k 01_imgtbl.submit
-JOB B_8k 02_make_hdr.submit
-JOB C_8k 03_proj_exec.submit
-JOB D_8k 04_imgtbl.submit
-JOB E_8k 05_overlaps.submit
-JOB F_8k 06_diff_exec.submit
-JOB G_8k 07_fit_exec.submit
-JOB H_8k 08_bg_model.submit
-JOB I_8k 09_bg_exec.submit
-JOB J_8k 10_add.submit
-JOB K_8k 11_viewer.submit
+JOB A_8k 01_imgtbl.sub
+JOB B_8k 02_make_hdr.sub
+JOB C_8k 03_proj_exec.sub
+JOB D_8k 04_imgtbl.sub
+JOB E_8k 05_overlaps.sub
+JOB F_8k 06_diff_exec.sub
+JOB G_8k 07_fit_exec.sub
+JOB H_8k 08_bg_model.sub
+JOB I_8k 09_bg_exec.sub
+JOB J_8k 10_add.sub
+JOB K_8k 11_viewer.sub
 
 VARS A_8k p="/home/ubuntu/shared_data/montage/M8/band_k"
 VARS B_8k p="/home/ubuntu/shared_data/montage/M8/band_k"
@@ -80,7 +80,7 @@ VARS K_8k p="/home/ubuntu/shared_data/montage/M8/band_k"
 
 ## Merge
 
-JOB A_8 12_viewer.submit
+JOB A_8 12_viewer.sub
 VARS A_8 i="/home/ubuntu/shared_data/montage/M8"
 
 ## DAG
@@ -124,17 +124,17 @@ PARENT K_8j K_8h K_8k CHILD A_8
 
 ## Band J
 
-JOB A_15j 01_imgtbl.submit
-JOB B_15j 02_make_hdr.submit
-JOB C_15j 03_proj_exec.submit
-JOB D_15j 04_imgtbl.submit
-JOB E_15j 05_overlaps.submit
-JOB F_15j 06_diff_exec.submit
-JOB G_15j 07_fit_exec.submit
-JOB H_15j 08_bg_model.submit
-JOB I_15j 09_bg_exec.submit
-JOB J_15j 10_add.submit
-JOB K_15j 11_viewer.submit
+JOB A_15j 01_imgtbl.sub
+JOB B_15j 02_make_hdr.sub
+JOB C_15j 03_proj_exec.sub
+JOB D_15j 04_imgtbl.sub
+JOB E_15j 05_overlaps.sub
+JOB F_15j 06_diff_exec.sub
+JOB G_15j 07_fit_exec.sub
+JOB H_15j 08_bg_model.sub
+JOB I_15j 09_bg_exec.sub
+JOB J_15j 10_add.sub
+JOB K_15j 11_viewer.sub
 
 VARS A_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
 VARS B_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
@@ -150,17 +150,17 @@ VARS K_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
 
 ## Band H
 
-JOB A_15h 01_imgtbl.submit
-JOB B_15h 02_make_hdr.submit
-JOB C_15h 03_proj_exec.submit
-JOB D_15h 04_imgtbl.submit
-JOB E_15h 05_overlaps.submit
-JOB F_15h 06_diff_exec.submit
-JOB G_15h 07_fit_exec.submit
-JOB H_15h 08_bg_model.submit
-JOB I_15h 09_bg_exec.submit
-JOB J_15h 10_add.submit
-JOB K_15h 11_viewer.submit
+JOB A_15h 01_imgtbl.sub
+JOB B_15h 02_make_hdr.sub
+JOB C_15h 03_proj_exec.sub
+JOB D_15h 04_imgtbl.sub
+JOB E_15h 05_overlaps.sub
+JOB F_15h 06_diff_exec.sub
+JOB G_15h 07_fit_exec.sub
+JOB H_15h 08_bg_model.sub
+JOB I_15h 09_bg_exec.sub
+JOB J_15h 10_add.sub
+JOB K_15h 11_viewer.sub
 
 VARS A_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
 VARS B_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
@@ -176,17 +176,17 @@ VARS K_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
 
 ## Band K
 
-JOB A_15k 01_imgtbl.submit
-JOB B_15k 02_make_hdr.submit
-JOB C_15k 03_proj_exec.submit
-JOB D_15k 04_imgtbl.submit
-JOB E_15k 05_overlaps.submit
-JOB F_15k 06_diff_exec.submit
-JOB G_15k 07_fit_exec.submit
-JOB H_15k 08_bg_model.submit
-JOB I_15k 09_bg_exec.submit
-JOB J_15k 10_add.submit
-JOB K_15k 11_viewer.submit
+JOB A_15k 01_imgtbl.sub
+JOB B_15k 02_make_hdr.sub
+JOB C_15k 03_proj_exec.sub
+JOB D_15k 04_imgtbl.sub
+JOB E_15k 05_overlaps.sub
+JOB F_15k 06_diff_exec.sub
+JOB G_15k 07_fit_exec.sub
+JOB H_15k 08_bg_model.sub
+JOB I_15k 09_bg_exec.sub
+JOB J_15k 10_add.sub
+JOB K_15k 11_viewer.sub
 
 VARS A_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
 VARS B_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
@@ -202,7 +202,7 @@ VARS K_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
 
 ## Merge
 
-JOB A_15 12_viewer.submit
+JOB A_15 12_viewer.sub
 VARS A_15 i="/home/ubuntu/shared_data/montage/M15"
 
 ## DAG
@@ -246,17 +246,17 @@ PARENT K_15j K_15h K_15k CHILD A_15
 
 ## Band J
 
-JOB A_17j 01_imgtbl.submit
-JOB B_17j 02_make_hdr.submit
-JOB C_17j 03_proj_exec.submit
-JOB D_17j 04_imgtbl.submit
-JOB E_17j 05_overlaps.submit
-JOB F_17j 06_diff_exec.submit
-JOB G_17j 07_fit_exec.submit
-JOB H_17j 08_bg_model.submit
-JOB I_17j 09_bg_exec.submit
-JOB J_17j 10_add.submit
-JOB K_17j 11_viewer.submit
+JOB A_17j 01_imgtbl.sub
+JOB B_17j 02_make_hdr.sub
+JOB C_17j 03_proj_exec.sub
+JOB D_17j 04_imgtbl.sub
+JOB E_17j 05_overlaps.sub
+JOB F_17j 06_diff_exec.sub
+JOB G_17j 07_fit_exec.sub
+JOB H_17j 08_bg_model.sub
+JOB I_17j 09_bg_exec.sub
+JOB J_17j 10_add.sub
+JOB K_17j 11_viewer.sub
 
 VARS A_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 VARS B_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
@@ -272,17 +272,17 @@ VARS K_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 
 ## Band H
 
-JOB A_17h 01_imgtbl.submit
-JOB B_17h 02_make_hdr.submit
-JOB C_17h 03_proj_exec.submit
-JOB D_17h 04_imgtbl.submit
-JOB E_17h 05_overlaps.submit
-JOB F_17h 06_diff_exec.submit
-JOB G_17h 07_fit_exec.submit
-JOB H_17h 08_bg_model.submit
-JOB I_17h 09_bg_exec.submit
-JOB J_17h 10_add.submit
-JOB K_17h 11_viewer.submit
+JOB A_17h 01_imgtbl.sub
+JOB B_17h 02_make_hdr.sub
+JOB C_17h 03_proj_exec.sub
+JOB D_17h 04_imgtbl.sub
+JOB E_17h 05_overlaps.sub
+JOB F_17h 06_diff_exec.sub
+JOB G_17h 07_fit_exec.sub
+JOB H_17h 08_bg_model.sub
+JOB I_17h 09_bg_exec.sub
+JOB J_17h 10_add.sub
+JOB K_17h 11_viewer.sub
 
 VARS A_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 VARS B_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
@@ -298,17 +298,17 @@ VARS K_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 
 ## Band K
 
-JOB A_17k 01_imgtbl.submit
-JOB B_17k 02_make_hdr.submit
-JOB C_17k 03_proj_exec.submit
-JOB D_17k 04_imgtbl.submit
-JOB E_17k 05_overlaps.submit
-JOB F_17k 06_diff_exec.submit
-JOB G_17k 07_fit_exec.submit
-JOB H_17k 08_bg_model.submit
-JOB I_17k 09_bg_exec.submit
-JOB J_17k 10_add.submit
-JOB K_17k 11_viewer.submit
+JOB A_17k 01_imgtbl.sub
+JOB B_17k 02_make_hdr.sub
+JOB C_17k 03_proj_exec.sub
+JOB D_17k 04_imgtbl.sub
+JOB E_17k 05_overlaps.sub
+JOB F_17k 06_diff_exec.sub
+JOB G_17k 07_fit_exec.sub
+JOB H_17k 08_bg_model.sub
+JOB I_17k 09_bg_exec.sub
+JOB J_17k 10_add.sub
+JOB K_17k 11_viewer.sub
 
 VARS A_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS B_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
@@ -324,7 +324,7 @@ VARS K_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 
 ## Merge
 
-JOB A_17 12_viewer.submit
+JOB A_17 12_viewer.sub
 VARS A_17 i="/home/ubuntu/shared_data/montage/M17"
 
 ## DAG

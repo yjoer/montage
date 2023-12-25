@@ -43,3 +43,13 @@ Run a single job:
 ```
 condor_submit p=~/shared_data/montage/M17/band_k jobs/01_imgtbl.submit
 ```
+
+Run a DAG:
+
+```
+cd ~/shared_data/montage/jobs
+
+condor_submit_dag 90_band_parallelism.dag
+
+tail -f 90_band_parallelism.dag.dagman.out
+```

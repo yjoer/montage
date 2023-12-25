@@ -1,3 +1,125 @@
+# M15
+
+## Band J
+
+JOB A_15j 01_imgtbl.submit
+JOB B_15j 02_make_hdr.submit
+JOB C_15j 03_proj_exec.submit
+JOB D_15j 04_imgtbl.submit
+JOB E_15j 05_overlaps.submit
+JOB F_15j 06_diff_exec.submit
+JOB G_15j 07_fit_exec.submit
+JOB H_15j 08_bg_model.submit
+JOB I_15j 09_bg_exec.submit
+JOB J_15j 10_add.submit
+JOB K_15j 11_viewer.submit
+
+VARS A_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS B_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS C_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS D_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS E_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS F_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS G_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS H_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS I_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS J_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+VARS K_15j p="/home/ubuntu/shared_data/montage/M15/band_j"
+
+## Band H
+
+JOB A_15h 01_imgtbl.submit
+JOB B_15h 02_make_hdr.submit
+JOB C_15h 03_proj_exec.submit
+JOB D_15h 04_imgtbl.submit
+JOB E_15h 05_overlaps.submit
+JOB F_15h 06_diff_exec.submit
+JOB G_15h 07_fit_exec.submit
+JOB H_15h 08_bg_model.submit
+JOB I_15h 09_bg_exec.submit
+JOB J_15h 10_add.submit
+JOB K_15h 11_viewer.submit
+
+VARS A_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS B_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS C_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS D_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS E_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS F_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS G_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS H_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS I_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS J_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+VARS K_15h p="/home/ubuntu/shared_data/montage/M15/band_h"
+
+## Band K
+
+JOB A_15k 01_imgtbl.submit
+JOB B_15k 02_make_hdr.submit
+JOB C_15k 03_proj_exec.submit
+JOB D_15k 04_imgtbl.submit
+JOB E_15k 05_overlaps.submit
+JOB F_15k 06_diff_exec.submit
+JOB G_15k 07_fit_exec.submit
+JOB H_15k 08_bg_model.submit
+JOB I_15k 09_bg_exec.submit
+JOB J_15k 10_add.submit
+JOB K_15k 11_viewer.submit
+
+VARS A_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS B_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS C_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS D_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS E_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS F_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS G_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS H_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS I_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS J_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+VARS K_15k p="/home/ubuntu/shared_data/montage/M15/band_k"
+
+## Merge
+
+JOB A_15 12_viewer.submit
+VARS A_15 i="/home/ubuntu/shared_data/montage/M15"
+
+## DAG
+
+PARENT A_15j CHILD B_15j
+PARENT B_15j CHILD C_15j
+PARENT C_15j CHILD D_15j
+PARENT D_15j CHILD E_15j
+PARENT E_15j CHILD F_15j
+PARENT F_15j CHILD G_15j
+PARENT G_15j CHILD H_15j
+PARENT H_15j CHILD I_15j
+PARENT I_15j CHILD J_15j
+PARENT J_15j CHILD K_15j
+
+PARENT A_15h CHILD B_15h
+PARENT B_15h CHILD C_15h
+PARENT C_15h CHILD D_15h
+PARENT D_15h CHILD E_15h
+PARENT E_15h CHILD F_15h
+PARENT F_15h CHILD G_15h
+PARENT G_15h CHILD H_15h
+PARENT H_15h CHILD I_15h
+PARENT I_15h CHILD J_15h
+PARENT J_15h CHILD K_15h
+
+PARENT A_15k CHILD B_15k
+PARENT B_15k CHILD C_15k
+PARENT C_15k CHILD D_15k
+PARENT D_15k CHILD E_15k
+PARENT E_15k CHILD F_15k
+PARENT F_15k CHILD G_15k
+PARENT G_15k CHILD H_15k
+PARENT H_15k CHILD I_15k
+PARENT I_15k CHILD J_15k
+PARENT J_15k CHILD K_15k
+
+PARENT K_15j K_15h K_15k CHILD A_15
+
 # M17
 
 ## Band J

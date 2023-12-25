@@ -53,3 +53,10 @@ condor_submit_dag 90_band_parallelism.dag
 
 tail -f 90_band_parallelism.dag.dagman.out
 ```
+
+Remove logs and output files:
+
+```
+cd ~/shared_data/montage
+rm -rf **/*.{out,output,err,error,log} {M8,M15,M17}/**/*.{out,output,err,error,log}
+```

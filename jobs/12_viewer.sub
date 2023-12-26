@@ -3,8 +3,8 @@ arguments = -t 1 -red $(i)/band_k/final.fits 0s max gaussian-log -green $(i)/ban
 
 initialdir = $(p)
 
-output = 12_viewer.output
-error = 12_viewer.error
+output = 12_viewer.out
+error = 12_viewer.err
 log = 12_viewer.log
 
 request_cpus = 1

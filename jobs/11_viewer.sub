@@ -3,8 +3,8 @@ arguments = -ct 1 -gray $(p)/final.fits -1s max gaussian-log -out $(p)/final.png
 
 initialdir = $(p)
 
-output = 11_viewer.output
-error = 11_viewer.error
+output = 11_viewer.out
+error = 11_viewer.err
 log = 11_viewer.log
 
 request_cpus = 1

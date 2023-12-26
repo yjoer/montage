@@ -3,8 +3,8 @@ arguments = $(p)/images_p.tbl $(p)/diffs.tbl
 
 initialdir = $(p)
 
-output = 05_overlaps.output
-error = 05_overlaps.error
+output = 05_overlaps.out
+error = 05_overlaps.err
 log = 05_overlaps.log
 
 request_cpus = 1

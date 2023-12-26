@@ -3,8 +3,8 @@ arguments = -p $(p)/images $(p)/images.tbl $(p)/template.hdr $(p)/proj $(p)/stat
 
 initialdir = $(p)
 
-output = 03_proj_exec.output
-error = 03_proj_exec.error
+output = 03_proj_exec.out
+error = 03_proj_exec.err
 log = 03_proj_exec.log
 
 request_cpus = 1

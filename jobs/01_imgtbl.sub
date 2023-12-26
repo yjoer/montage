@@ -3,8 +3,8 @@ arguments = $(p)/images $(p)/images.tbl
 
 initialdir = $(p)
 
-output = 01_imgtbl.output
-error = 01_imgtbl.error
+output = 01_imgtbl.out
+error = 01_imgtbl.err
 log = 01_imgtbl.log
 
 request_cpus = 1

@@ -3,8 +3,8 @@ arguments = $(p)/images.tbl $(p)/template.hdr
 
 initialdir = $(p)
 
-output = 02_make_hdr.output
-error = 02_make_hdr.error
+output = 02_make_hdr.out
+error = 02_make_hdr.err
 log = 02_make_hdr.log
 
 request_cpus = 1

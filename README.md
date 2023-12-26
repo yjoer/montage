@@ -58,5 +58,5 @@ Remove logs and output files:
 
 ```
 cd ~/shared_data/montage
-rm -rf **/*.{out,output,err,error,log} {M8,M15,M17}/**/*.{out,output,err,error,log}
+rm -rf **/*.{out,err,log} {M8,M15,M17}/**/*.{out,err,log}
 ```

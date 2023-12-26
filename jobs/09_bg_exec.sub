@@ -3,8 +3,8 @@ arguments = -p $(p)/proj/ $(p)/images_p.tbl $(p)/corrections.tbl $(p)/corr
 
 initialdir = $(p)
 
-output = 09_bg_exec.output
-error = 09_bg_exec.error
+output = 09_bg_exec.out
+error = 09_bg_exec.err
 log = 09_bg_exec.log
 
 request_cpus = 1

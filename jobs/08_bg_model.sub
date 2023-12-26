@@ -3,8 +3,8 @@ arguments = $(p)/images_p.tbl $(p)/fits.tbl $(p)/corrections.tbl
 
 initialdir = $(p)
 
-output = 08_bg_model.output
-error = 08_bg_model.error
+output = 08_bg_model.out
+error = 08_bg_model.err
 log = 08_bg_model.log
 
 request_cpus = 1

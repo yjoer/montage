@@ -3,8 +3,8 @@ arguments = $(p)/diffs.tbl $(p)/fits.tbl $(p)/diff
 
 initialdir = $(p)
 
-output = 07_fit_exec.output
-error = 07_fit_exec.error
+output = 07_fit_exec.out
+error = 07_fit_exec.err
 log = 07_fit_exec.log
 
 request_cpus = 1

@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mAdd
+arguments = -p $(p)/corr/ $(p)/images_c.tbl $(p)/template.hdr $(p)/final.fits
+
+initialdir = $(p)
+
+output = 11_add.out
+error = 11_add.err
+log = 11_add.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -7,8 +7,9 @@ JOB F_17k 06_diff_exec.sub
 JOB G_17k 07_fit_exec.sub
 JOB H_17k 08_bg_model.sub
 JOB I_17k 09_bg_exec.sub
-JOB J_17k 10_add.sub
-JOB K_17k 11_viewer.sub
+JOB J_17k 10_imgtbl.sub
+JOB K_17k 11_add.sub
+JOB L_17k 12_viewer.sub
 
 VARS A_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS B_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
@@ -21,6 +22,7 @@ VARS H_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS I_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS J_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS K_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS L_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 
 PARENT A_17k CHILD B_17k
 PARENT B_17k CHILD C_17k
@@ -32,3 +34,4 @@ PARENT G_17k CHILD H_17k
 PARENT H_17k CHILD I_17k
 PARENT I_17k CHILD J_17k
 PARENT J_17k CHILD K_17k
+PARENT K_17k CHILD L_17k

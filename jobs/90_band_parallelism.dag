@@ -273,8 +273,9 @@ JOB F_17j 06_diff_exec.sub
 JOB G_17j 07_fit_exec.sub
 JOB H_17j 08_bg_model.sub
 JOB I_17j 09_bg_exec.sub
-JOB J_17j 10_add.sub
-JOB K_17j 11_viewer.sub
+JOB J_17j 10_imgtbl.sub
+JOB K_17j 11_add.sub
+JOB L_17j 12_viewer.sub
 
 VARS A_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 VARS B_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
@@ -287,6 +288,7 @@ VARS H_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 VARS I_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 VARS J_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 VARS K_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
+VARS L_17j p="/home/ubuntu/shared_data/montage/M17/band_j"
 
 ## Band H
 
@@ -299,8 +301,9 @@ JOB F_17h 06_diff_exec.sub
 JOB G_17h 07_fit_exec.sub
 JOB H_17h 08_bg_model.sub
 JOB I_17h 09_bg_exec.sub
-JOB J_17h 10_add.sub
-JOB K_17h 11_viewer.sub
+JOB J_17h 10_imgtbl.sub
+JOB K_17h 11_add.sub
+JOB L_17h 12_viewer.sub
 
 VARS A_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 VARS B_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
@@ -313,6 +316,7 @@ VARS H_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 VARS I_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 VARS J_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 VARS K_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
+VARS L_17h p="/home/ubuntu/shared_data/montage/M17/band_h"
 
 ## Band K
 
@@ -325,8 +329,9 @@ JOB F_17k 06_diff_exec.sub
 JOB G_17k 07_fit_exec.sub
 JOB H_17k 08_bg_model.sub
 JOB I_17k 09_bg_exec.sub
-JOB J_17k 10_add.sub
-JOB K_17k 11_viewer.sub
+JOB J_17k 10_imgtbl.sub
+JOB K_17k 11_add.sub
+JOB L_17k 12_viewer.sub
 
 VARS A_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS B_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
@@ -339,10 +344,11 @@ VARS H_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS I_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS J_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS K_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS L_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 
 ## Merge
 
-JOB A_17 12_viewer.sub
+JOB A_17 13_viewer.sub
 VARS A_17 i="/home/ubuntu/shared_data/montage/M17"
 
 ## DAG
@@ -357,6 +363,7 @@ PARENT G_17j CHILD H_17j
 PARENT H_17j CHILD I_17j
 PARENT I_17j CHILD J_17j
 PARENT J_17j CHILD K_17j
+PARENT K_17j CHILD L_17j
 
 PARENT A_17h CHILD B_17h
 PARENT B_17h CHILD C_17h
@@ -368,6 +375,7 @@ PARENT G_17h CHILD H_17h
 PARENT H_17h CHILD I_17h
 PARENT I_17h CHILD J_17h
 PARENT J_17h CHILD K_17h
+PARENT K_17h CHILD L_17h
 
 PARENT A_17k CHILD B_17k
 PARENT B_17k CHILD C_17k
@@ -379,5 +387,6 @@ PARENT G_17k CHILD H_17k
 PARENT H_17k CHILD I_17k
 PARENT I_17k CHILD J_17k
 PARENT J_17k CHILD K_17k
+PARENT K_17k CHILD L_17k
 
-PARENT K_17j K_17h K_17k CHILD A_17
+PARENT L_17j L_17h L_17k CHILD A_17

@@ -68,7 +68,7 @@ JOB G_8k 07_fit_exec.sub
 JOB H_8k 08_bg_model.sub
 JOB I_8k 09_bg_exec.sub
 JOB J_8k 10_imgtbl.sub
-JOB K_8h 11_add.sub
+JOB K_8k 11_add.sub
 JOB L_8k 12_viewer.sub
 
 VARS A_8k p="/home/ubuntu/shared_data/montage/M8/band_k"

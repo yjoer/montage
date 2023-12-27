@@ -12,7 +12,7 @@ def parse_table(lines):
     return
 
 
-with open("74_util.py") as f:
+with open(os.path.join(os.path.dirname(__file__), "74_util.py")) as f:
     exec(f.read())
 
 parser = argparse.ArgumentParser()

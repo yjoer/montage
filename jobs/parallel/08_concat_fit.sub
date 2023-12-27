@@ -1,4 +1,4 @@
-executable = cat
+executable = /usr/bin/cat
 arguments = $(p)/fits.0.tbl $(p)/fits.1.tbl $(p)/fits.2.tbl $(p)/fits.3.tbl $(p)/fits.4.tbl $(p)/fits.5.tbl $(p)/fits.6.tbl $(p)/fits.7.tbl $(p)/fits.8.tbl > $(p)/fits_p.tbl
 
 initialdir = $(p)

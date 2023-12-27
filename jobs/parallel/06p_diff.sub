@@ -1,4 +1,4 @@
-executable = python3
+executable = /usr/bin/python3/python3
 arguments = $ENV(HOME)/shared_data/montage/jobs/71_diff.py --program $ENV(HOME)/montage/mDiff --input-dir $(p)/proj_p --output-dir $(p)/diff_p --table $(p)/diffs_p.tbl --template $(p)/template_parallel.hdr --split $(split) --total-splits $(total_splits)
 
 initialdir = $(p)

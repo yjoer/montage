@@ -1,4 +1,4 @@
-executable = python3
+executable = /usr/bin/python3/python3
 arguments = $ENV(HOME)/shared_data/montage/jobs/72_fitplane.py --program $ENV(HOME)/montage/mFitplane --input-dir $(p)/diff_p --output-dir $(p) --table $(p)/diffs_p.tbl --split $(split) --total-split $(total_splits)
 
 initialdir = $(p)

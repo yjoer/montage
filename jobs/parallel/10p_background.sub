@@ -1,4 +1,4 @@
-executable = python3
+executable = /usr/bin/python3/python3
 arguments = $ENV(HOME)/shared_data/montage/jobs/73_background.py --program $ENV(HOME)/montage/mBackground --output-dir $(p)/corr_p --table $(p)/images_pp.tbl --corrections $(p)/corrections_p.tbl --split $(split) --total-splits $(total_splits)
 
 initialdir = $(p)

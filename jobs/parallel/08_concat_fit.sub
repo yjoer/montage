@@ -1,0 +1,13 @@
+executable = cat
+arguments = $(p)/fits.0.tbl $(p)/fits.1.tbl $(p)/fits.2.tbl $(p)/fits.3.tbl $(p)/fits.4.tbl $(p)/fits.5.tbl $(p)/fits.6.tbl $(p)/fits.7.tbl $(p)/fits.8.tbl > $(p)/fits_p.tbl
+
+initialdir = $(p)
+
+output = 08_concat_fit.parallel.out
+error = 08_concat_fit.parallel.err
+log = 08_concat_fit.parallel.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

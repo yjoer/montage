@@ -1,0 +1,110 @@
+JOB A_17k parallel/01_imgtbl.sub
+JOB B_17k parallel/02_make_hdr.sub
+
+JOB C1_17k parallel/03p_proj_pp.sub
+JOB C2_17k parallel/03p_proj_pp.sub
+JOB C3_17k parallel/03p_proj_pp.sub
+JOB C4_17k parallel/03p_proj_pp.sub
+JOB C5_17k parallel/03p_proj_pp.sub
+JOB C6_17k parallel/03p_proj_pp.sub
+JOB C7_17k parallel/03p_proj_pp.sub
+JOB C8_17k parallel/03p_proj_pp.sub
+
+JOB D_17k parallel/04_imgtbl.sub
+JOB E_17k parallel/05_overlaps.sub
+
+JOB F1_17k parallel/06p_diff.sub
+JOB F2_17k parallel/06p_diff.sub
+JOB F3_17k parallel/06p_diff.sub
+JOB F4_17k parallel/06p_diff.sub
+JOB F5_17k parallel/06p_diff.sub
+JOB F6_17k parallel/06p_diff.sub
+JOB F7_17k parallel/06p_diff.sub
+JOB F8_17k parallel/06p_diff.sub
+
+JOB G1_17k parallel/07p_fitplane.sub
+JOB G2_17k parallel/07p_fitplane.sub
+JOB G3_17k parallel/07p_fitplane.sub
+JOB G4_17k parallel/07p_fitplane.sub
+JOB G5_17k parallel/07p_fitplane.sub
+JOB G6_17k parallel/07p_fitplane.sub
+JOB G7_17k parallel/07p_fitplane.sub
+JOB G8_17k parallel/07p_fitplane.sub
+
+JOB H_17k parallel/08_concat_fit.sub
+JOB I_17k parallel/09_bg_model.sub
+
+JOB J1_17k 10p_background.sub
+JOB J2_17k 10p_background.sub
+JOB J3_17k 10p_background.sub
+JOB J4_17k 10p_background.sub
+JOB J5_17k 10p_background.sub
+JOB J6_17k 10p_background.sub
+JOB J7_17k 10p_background.sub
+JOB J8_17k 10p_background.sub
+
+JOB K_17k 11_imgtbl.sub
+JOB L_17k 12_add.sub
+JOB M_17k 13_viewer.sub
+
+VARS A_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS B_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+
+VARS C1_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="0" total_splits="8"
+VARS C2_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="1" total_splits="8"
+VARS C3_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="2" total_splits="8"
+VARS C4_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="3" total_splits="8"
+VARS C5_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="4" total_splits="8"
+VARS C6_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="5" total_splits="8"
+VARS C7_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="6" total_splits="8"
+VARS C8_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
+
+VARS D_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS E_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+
+VARS F1_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="0" total_splits="8"
+VARS F2_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="1" total_splits="8"
+VARS F3_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="2" total_splits="8"
+VARS F4_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="3" total_splits="8"
+VARS F5_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="4" total_splits="8"
+VARS F6_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="5" total_splits="8"
+VARS F7_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="6" total_splits="8"
+VARS F9_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
+
+VARS G1_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="0" total_splits="8"
+VARS G2_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="1" total_splits="8"
+VARS G3_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="2" total_splits="8"
+VARS G4_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="3" total_splits="8"
+VARS G5_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="4" total_splits="8"
+VARS G6_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="5" total_splits="8"
+VARS G7_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="6" total_splits="8"
+VARS G8_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
+
+VARS H_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS I_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+
+VARS J1_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="0" total_splits="8"
+VARS J2_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="1" total_splits="8"
+VARS J3_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="2" total_splits="8"
+VARS J4_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="3" total_splits="8"
+VARS J5_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="4" total_splits="8"
+VARS J6_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="5" total_splits="8"
+VARS J7_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="6" total_splits="8"
+VARS J8_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
+
+VARS K_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS L_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+VARS M_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
+
+PARENT A_17k CHILD B_17k
+PARENT B_17K CHILD C1_17k C2_17k C3_17k C4_17k C5_17k C6_17k C7_17k C8_17k
+PARENT C1_17k C2_17k C3_17k C4_17k C5_17k C6_17k C7_17k C8_17k CHILD D_17k
+PARENT D_17k CHILD E_17k
+PARENT E_17K CHILD F1_17k F2_17k F3_17k F4_17k F5_17k F6_17k F7_17k F8_17k
+PARENT F1_17k F2_17k F3_17k F4_17k F5_17k F6_17k F7_17k F8_17k CHILD G1_17k G2_17k G3_17k G4_17k G5_17k G6_17k G7_17k G8_17k
+PARENT G1_17k G2_17k G3_17k G4_17k G5_17k G6_17 G7_17k G8_17k CHILD H_17k
+PARENT H_17k CHILD I_17k
+PARENT I_17k CHILD J1_17k J2_17k J3_17k J4_17k J5_17k J6_17k J7_17k J8_17k
+PARENT J1_17k J2_17k J3_17k J4_17k J5_17k J6_17k J7_17k J8_17k CHILD K_17k
+PARENT K_17k CHILD L_17k
+PARENT K_17k CHILD M_17k

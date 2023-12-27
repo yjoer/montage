@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mOverlaps
+arguments = $(p)/images_pp.tbl $(p)/diffs_p.tbl
+
+initialdir = $(p)
+
+output = 05_overlaps.parallel.out
+error = 05_overlaps.parallel.err
+log = 05_overlaps.parallel.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -1,0 +1,13 @@
+executable = python3
+arguments = $ENV(HOME)/shared_data/montage/jobs/70_project_pp.py --program $ENV(HOME)/montage/mProjectPP --output-dir $(p)/proj_p --table $(p)/images_parallel.tbl --template $(p)/template_parallel.hdr --split $(split) --total-splits $(total_splits)
+
+initialdir = $(p)
+
+output = 03p_proj_pp.$(split).out
+error = 03p_proj_pp.$(split).err
+log = 03p_proj_pp.$(split).log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -1,0 +1,13 @@
+executable = python3
+arguments = $ENV(HOME)/shared_data/montage/jobs/73_background.py --program $ENV(HOME)/montage/mBackground --output-dir $(p)/corr_p --table $(p)/images_pp.tbl --corrections $(p)/corrections_p.tbl --split $(split) --total-splits $(total_splits)
+
+initialdir = $(p)
+
+output = 10p_background.$(split).out
+error = 10p_background.$(split).err
+log = 10p_background.$(split).log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

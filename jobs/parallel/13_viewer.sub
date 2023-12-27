@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mViewer
+arguments = -ct 1 -gray $(p)/final_p.fits -1s max gaussian-log -out $(p)/final_p.png
+
+initialdir = $(p)
+
+output = 13_viewer.parallel.out
+error = 13_viewer.parallel.err
+log = 13_viewer.parallel.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

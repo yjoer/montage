@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mAdd
+arguments = -p $(p)/corr_p $(p)/images_cp.tbl $(p)/template_parallel.hdr $(p)/final_p.fits
+
+initialdir = $(p)
+
+output = 12_add.parallel.out
+error = 12_add.parallel.err
+log = 12_add.parallel.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

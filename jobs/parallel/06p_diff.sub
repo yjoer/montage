@@ -1,0 +1,13 @@
+executable = python3
+arguments = $ENV(HOME)/shared_data/montage/jobs/71_diff.py --program $ENV(HOME)/montage/mDiff --input-dir $(p)/proj_p --output-dir $(p)/diff_p --table $(p)/diffs_p.tbl --template $(p)/template_parallel.hdr --split $(split) --total-splits $(total_splits)
+
+initialdir = $(p)
+
+output = 06p_diff.$(split).out
+error = 06p_diff.$(split).err
+log = 06p_diff.$(split).log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -1,0 +1,13 @@
+executable = $ENV(HOME)/montage/mImgtbl
+arguments = $(p)/proj_p $(p)/images_pp.tbl
+
+initialdir = $(p)
+
+output = 04_imgtbl.parallel.out
+error = 04_imgtbl.parallel.err
+log = 04_imgtbl.parallel.log
+
+request_cpus = 1
+request_memory = 3.5G
+
+queue

@@ -34,18 +34,18 @@ JOB G8_17k parallel/07p_fitplane.sub
 JOB H_17k parallel/08_concat_fit.sub
 JOB I_17k parallel/09_bg_model.sub
 
-JOB J1_17k 10p_background.sub
-JOB J2_17k 10p_background.sub
-JOB J3_17k 10p_background.sub
-JOB J4_17k 10p_background.sub
-JOB J5_17k 10p_background.sub
-JOB J6_17k 10p_background.sub
-JOB J7_17k 10p_background.sub
-JOB J8_17k 10p_background.sub
+JOB J1_17k parallel/10p_background.sub
+JOB J2_17k parallel/10p_background.sub
+JOB J3_17k parallel/10p_background.sub
+JOB J4_17k parallel/10p_background.sub
+JOB J5_17k parallel/10p_background.sub
+JOB J6_17k parallel/10p_background.sub
+JOB J7_17k parallel/10p_background.sub
+JOB J8_17k parallel/10p_background.sub
 
-JOB K_17k 11_imgtbl.sub
-JOB L_17k 12_add.sub
-JOB M_17k 13_viewer.sub
+JOB K_17k parallel/11_imgtbl.sub
+JOB L_17k parallel/12_add.sub
+JOB M_17k parallel/13_viewer.sub
 
 VARS A_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS B_17k p="/home/ubuntu/shared_data/montage/M17/band_k"

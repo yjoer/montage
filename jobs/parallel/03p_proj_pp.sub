@@ -1,4 +1,4 @@
-executable = /usr/bin/python3/python3
+executable = /usr/bin/python3
 arguments = $ENV(HOME)/shared_data/montage/jobs/70_project_pp.py --program $ENV(HOME)/montage/mProjectPP --output-dir $(p)/proj_p --table $(p)/images_parallel.tbl --template $(p)/template_parallel.hdr --split $(split) --total-splits $(total_splits)
 
 initialdir = $(p)

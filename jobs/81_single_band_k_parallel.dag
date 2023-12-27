@@ -69,7 +69,7 @@ VARS F4_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="3" total_spli
 VARS F5_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="4" total_splits="8"
 VARS F6_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="5" total_splits="8"
 VARS F7_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="6" total_splits="8"
-VARS F9_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
+VARS F8_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="7" total_splits="8"
 
 VARS G1_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="0" total_splits="8"
 VARS G2_17k p="/home/ubuntu/shared_data/montage/M17/band_k" split="1" total_splits="8"
@@ -97,12 +97,12 @@ VARS L_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 VARS M_17k p="/home/ubuntu/shared_data/montage/M17/band_k"
 
 PARENT A_17k CHILD B_17k
-PARENT B_17K CHILD C1_17k C2_17k C3_17k C4_17k C5_17k C6_17k C7_17k C8_17k
+PARENT B_17k CHILD C1_17k C2_17k C3_17k C4_17k C5_17k C6_17k C7_17k C8_17k
 PARENT C1_17k C2_17k C3_17k C4_17k C5_17k C6_17k C7_17k C8_17k CHILD D_17k
 PARENT D_17k CHILD E_17k
-PARENT E_17K CHILD F1_17k F2_17k F3_17k F4_17k F5_17k F6_17k F7_17k F8_17k
+PARENT E_17k CHILD F1_17k F2_17k F3_17k F4_17k F5_17k F6_17k F7_17k F8_17k
 PARENT F1_17k F2_17k F3_17k F4_17k F5_17k F6_17k F7_17k F8_17k CHILD G1_17k G2_17k G3_17k G4_17k G5_17k G6_17k G7_17k G8_17k
-PARENT G1_17k G2_17k G3_17k G4_17k G5_17k G6_17 G7_17k G8_17k CHILD H_17k
+PARENT G1_17k G2_17k G3_17k G4_17k G5_17k G6_17k G7_17k G8_17k CHILD H_17k
 PARENT H_17k CHILD I_17k
 PARENT I_17k CHILD J1_17k J2_17k J3_17k J4_17k J5_17k J6_17k J7_17k J8_17k
 PARENT J1_17k J2_17k J3_17k J4_17k J5_17k J6_17k J7_17k J8_17k CHILD K_17k

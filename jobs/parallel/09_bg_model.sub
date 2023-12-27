@@ -3,9 +3,9 @@ arguments = $(p)/images_pp.tbl $(p)/fits_p.tbl $(p)/corrections_p.tbl
 
 initialdir = $(p)
 
-output = 08_bg_model.parallel.out
-error = 08_bg_model.parallel.err
-log = 08_bg_model.parallel.log
+output = 09_bg_model.parallel.out
+error = 09_bg_model.parallel.err
+log = 09_bg_model.parallel.log
 
 request_cpus = 1
 request_memory = 3.5G
